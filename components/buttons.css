@@ -1,0 +1,30 @@
+@layer component {
+  .btn {
+    display: inline-block;
+    border-radius: 100px;
+    padding: 11px 24px;
+    white-space: nowrap;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -1%;
+    border: none;
+  }
+
+  .btn:disabled {
+    background-color: rgb(160, 160, 160);
+  }
+
+  .btn-blue {
+    color: #fdfdfd;
+    background-color: var(--primary);
+  }
+
+  .btn-refresh {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 100px;
+    padding: 5px 14px;
+    margin-left: 5px;
+  }
+}

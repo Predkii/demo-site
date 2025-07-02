@@ -1,0 +1,70 @@
+@layer component {
+  .contents {
+    display: flex;
+    max-width: 1068px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .nav-menu a {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: -2%;
+    color: #696E77;
+  }
+
+  .nav-menu h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: -1%;
+  }
+
+  .column {
+    width: 200px;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .column,
+  .column h2 {
+    margin-block: 0;
+  }
+
+
+  /* Page bottom */
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 336px;
+    margin-bottom: 20px;
+  }
+
+  .copyright {
+    display: flex;
+    gap: 32px;
+    color: #757575;
+    align-items: center;
+  }
+
+  .copyright p {
+    margin: 0;
+  }
+
+  .copyright a {
+    color: inherit;
+  }
+
+  .socials {
+    display: flex;
+    gap: 24px;
+  }
+}
