@@ -1,0 +1,43 @@
+@layer component {
+  .main {
+    padding-bottom: 40px;
+    margin-block: 0px 50px;
+  }
+
+  .headline {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .headline h1 {
+    margin-block: 0;
+    padding-bottom: 5px;
+  }
+
+  .headline p {
+    color: #585860;
+    margin-bottom: 25px;
+  }
+
+  .currencies {
+    margin-block: 20px 40px;
+  }
+
+  .currencies h2 {
+    margin: 0;
+  }
+
+  .base {
+    margin-bottom: 40px;
+  }
+
+  .div-exchange {
+    display: flex;
+    justify-content: end;
+  }
+
+  #exchange {
+    cursor: pointer;
+  }
+
+}
